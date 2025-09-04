@@ -1,6 +1,6 @@
 import sys
-from generator import generate_tex
-from compiler import compile_tex
+from src.generator import generate_tex
+from src.compiler import compile_tex
 
 def main():
     if len(sys.argv) != 3:
