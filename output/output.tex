@@ -1,0 +1,103 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{fontspec}
+\usepackage{xcolor}
+
+\setmainfont{Latin Modern Roman}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
+\renewcommand{\labelitemi}{$\bullet$}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{John Doe}}\\
+    \vspace{0.5em}
+    San Francisco, CA, USA \quad| \quad \texttt{john.doe@example.com} \quad| \quad \texttt{+1 (415) 555-1234} \\
+    \if\relax\detokenize{linkedin.com/in/johndoe}\relax
+        linkedin.com/in/johndoe
+    \else
+        \href{https://linkedin.com/in/johndoe}{linkedin.com/in/johndoe}
+    \fi
+    \quad| \quad
+    \if\relax\detokenize{github.com/johndoe}\relax
+        github.com/johndoe
+    \else
+        \href{https://github.com/johndoe}{github.com/johndoe}
+    \fi
+\end{center}
+
+\vspace{1em}
+
+\section*{Profile}
+Experienced Software Engineer with a strong background in building scalable backend systems and cloud-native applications. Passionate about designing resilient architectures, writing clean code, and solving real-world engineering problems in collaborative environments.
+
+\section*{Experience}
+\textbf{Senior Software Engineer, CloudScale Inc.} \hfill Feb 2021 - Present \\
+\begin{itemize}[leftmargin=1.5em]
+  \item Architected and implemented core services for a cloud-based analytics platform using Java (Spring Boot) and AWS.
+  \item Improved system scalability and reduced latency by introducing asynchronous processing with Kafka.
+  \item Collaborated with DevOps to establish CI/CD pipelines and infrastructure using Terraform and GitHub Actions.
+  \item Worked cross-functionally with Product and Data teams to design APIs consumed by internal and external clients.
+\end{itemize}
+
+\textbf{Software Engineer, NextBank} \hfill Jul 2017 - Jan 2021 \\
+\begin{itemize}[leftmargin=1.5em]
+  \item Developed backend services for digital banking using Python and PostgreSQL.
+  \item Implemented secure data pipelines and integrated with external identity verification services.
+  \item Participated in on-call rotations and incident reviews to improve system reliability.
+  \item Helped adopt containerization and improve deployment workflows using Docker and Kubernetes.
+\end{itemize}
+
+\textbf{Software Engineering Intern, TechHive} \hfill Jun 2016 - Sep 2016 \\
+\begin{itemize}[leftmargin=1.5em]
+  \item Built internal tools to automate test reporting using Python and Flask.
+  \item Wrote unit and integration tests, increasing code coverage by 25%.
+  \item Presented final project to engineering leadership.
+\end{itemize}
+
+
+
+\section*{Education}
+\textbf{B.A. in Computer Science} \hfill 2013 - 2017 \\
+University of California, Berkeley \\
+
+
+
+\section*{Projects}
+\textbf{DataBridge} \\ 
+A Python library for building secure data ingestion pipelines with built-in monitoring and retry logic. \\ 
+\textit{github.com/johndoe/databridge} \\
+
+\textbf{InfraStack} \\ 
+Template repository for standing up scalable microservices with Terraform, AWS ECS, and GitHub Actions. \\ 
+\textit{github.com/johndoe/infrastack} \\
+
+
+
+\section*{Skills}
+Java, Python, Spring Boot, PostgreSQL, Kafka, Docker, Kubernetes, AWS, Terraform, GitHub Actions, CI/CD, API Design
+
+\section*{Languages}
+English — Native \\
+Spanish — Conversational \\
+
+
+\section*{Achievements}
+\begin{itemize}[leftmargin=1.5em]
+\item Promoted to Senior Engineer in under 2 years based on performance and leadership.
+\item Presented 'Scaling APIs with Kafka and Spring Boot' at the 2023 Bay Area Tech Meetup.
+\item Built internal tooling adopted by 3 other teams, reducing deployment friction across the org.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,92 @@
+{
+  "name": "John Doe",
+  "role": "Senior Software Engineer",
+  "location": "San Francisco, CA, USA",
+  "email": "john.doe@example.com",
+  "phone": "+1 (415) 555-1234",
+  "linkedin": "linkedin.com/in/johndoe",
+  "github": "github.com/johndoe",
+  "profile": "Experienced Software Engineer with a strong background in building scalable backend systems and cloud-native applications. Passionate about designing resilient architectures, writing clean code, and solving real-world engineering problems in collaborative environments.",
+  "experiences": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "CloudScale Inc.",
+      "period": "Feb 2021 - Present",
+      "activities": [
+        "Architected and implemented core services for a cloud-based analytics platform using Java (Spring Boot) and AWS.",
+        "Improved system scalability and reduced latency by introducing asynchronous processing with Kafka.",
+        "Collaborated with DevOps to establish CI/CD pipelines and infrastructure using Terraform and GitHub Actions.",
+        "Worked cross-functionally with Product and Data teams to design APIs consumed by internal and external clients."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "NextBank",
+      "period": "Jul 2017 - Jan 2021",
+      "activities": [
+        "Developed backend services for digital banking using Python and PostgreSQL.",
+        "Implemented secure data pipelines and integrated with external identity verification services.",
+        "Participated in on-call rotations and incident reviews to improve system reliability.",
+        "Helped adopt containerization and improve deployment workflows using Docker and Kubernetes."
+      ]
+    },
+    {
+      "title": "Software Engineering Intern",
+      "company": "TechHive",
+      "period": "Jun 2016 - Sep 2016",
+      "activities": [
+        "Built internal tools to automate test reporting using Python and Flask.",
+        "Wrote unit and integration tests, increasing code coverage by 25%.",
+        "Presented final project to engineering leadership."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.A. in Computer Science",
+      "institution": "University of California, Berkeley",
+      "period": "2013 - 2017"
+    }
+  ],
+  "projects": [
+    {
+      "name": "DataBridge",
+      "description": "A Python library for building secure data ingestion pipelines with built-in monitoring and retry logic.",
+      "url": "github.com/johndoe/databridge"
+    },
+    {
+      "name": "InfraStack",
+      "description": "Template repository for standing up scalable microservices with Terraform, AWS ECS, and GitHub Actions.",
+      "url": "github.com/johndoe/infrastack"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "Spring Boot",
+    "PostgreSQL",
+    "Kafka",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Terraform",
+    "GitHub Actions",
+    "CI/CD",
+    "API Design"
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Native"
+    },
+    {
+      "language": "Spanish",
+      "level": "Conversational"
+    }
+  ],
+  "achievements": [
+    "Promoted to Senior Engineer in under 2 years based on performance and leadership.",
+    "Presented 'Scaling APIs with Kafka and Spring Boot' at the 2023 Bay Area Tech Meetup.",
+    "Built internal tooling adopted by 3 other teams, reducing deployment friction across the org."
+  ]
+}

@@ -1,0 +1,63 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{fontspec}
+\usepackage{xcolor}
+
+\setmainfont{Latin Modern Roman}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
+\renewcommand{\labelitemi}{$\bullet$}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{__NAME__}}\\
+    \vspace{0.5em}
+    __LOCATION__ \quad| \quad \texttt{__EMAIL__} \quad| \quad \texttt{__PHONE__} \\
+    \if\relax\detokenize{__LINKEDIN__}\relax
+        __LINKEDIN__
+    \else
+        \href{https://__LINKEDIN__}{__LINKEDIN__}
+    \fi
+    \quad| \quad
+    \if\relax\detokenize{__GITHUB__}\relax
+        __GITHUB__
+    \else
+        \href{https://__GITHUB__}{__GITHUB__}
+    \fi
+\end{center}
+
+\vspace{1em}
+
+\section*{Profile}
+__PROFILE__
+
+\section*{Experience}
+__EXPERIENCES__
+
+\section*{Education}
+__EDUCATION__
+
+\section*{Projects}
+__PROJECTS__
+
+\section*{Skills}
+__SKILLS__
+
+\section*{Languages}
+__LANGUAGES__
+
+\section*{Achievements}
+__ACHIEVEMENTS__
+
+\end{document}
